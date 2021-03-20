@@ -3,12 +3,12 @@ project(hector_map_tools)
 
 find_package(catkin REQUIRED COMPONENTS nav_msgs)
 
-find_package(Eigen3 REQUIRED)
+find_package(Eigen REQUIRED)
 
 catkin_package(
   INCLUDE_DIRS include
   CATKIN_DEPENDS nav_msgs
-  DEPENDS EIGEN3
+  DEPENDS EIGEN
 )
 
 #############
