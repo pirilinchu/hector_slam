@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS nav_msgs)
 # find_package(Boost REQUIRED COMPONENTS system)
 
 # Find Eigen3 (from http://wiki.ros.org/jade/Migration)
-find_package(Eigen3)
+find_package(Eigen3)dswd
 if(NOT EIGEN3_FOUND)
   # Fallback to cmake_modules
   find_package(cmake_modules REQUIRED)
